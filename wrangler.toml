@@ -7,7 +7,7 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "cfdh.kytd.us.kg"
+CUSTOM_DOMAIN = "kytd.us.kg"
 
 [env.dev.vars]
 MODE = "debug"
