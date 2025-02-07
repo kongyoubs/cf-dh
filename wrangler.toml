@@ -15,14 +15,14 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.production]
 name = "cf-dh"
-  routes = [
-    { pattern = "docker.kytd.us.kg", custom_domain = true },
+#  routes = [
+#    { pattern = "docker.kytd.us.kg", custom_domain = true },
 #    { pattern = "quay.kytd.us.kg", custom_domain = true },
 #    { pattern = "gcr.kytd.us.kg", custom_domain = true },
-#   { pattern = "k8s-gcr.kytd.us.kg", custom_domain = true },
-    { pattern = "k8s.kytd.us.kg", custom_domain = true },
-#   { pattern = "ghcr.kytd.us.kg", custom_domain = true },
-#   { pattern = "cloudsmith.kytd.us.kg", custom_domain = true },
+#    { pattern = "k8s-gcr.kytd.us.kg", custom_domain = true },
+#    { pattern = "k8s.kytd.us.kg", custom_domain = true },
+#    { pattern = "ghcr.kytd.us.kg", custom_domain = true },
+#    { pattern = "cloudsmith.kytd.us.kg", custom_domain = true },
 # ]
 
 [env.production.vars]
